@@ -1,0 +1,61 @@
+{
+  "name": "@riim/curry",
+  "version": "1.0.0",
+  "description": "Fast curry implementation",
+  "main": "dist/curry.js",
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c && node_modules/.bin/gulp",
+    "test": "rm -rf coverage && node_modules/karma/bin/karma start",
+    "test-debug": "rm -rf coverage && node_modules/karma/bin/karma start --debug",
+    "coveralls": "cat coverage/lcov.info | node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riim/curry.git"
+  },
+  "author": "Dmitry Vibe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riim/curry/issues"
+  },
+  "homepage": "https://github.com/Riim/curry#readme",
+  "devDependencies": {
+    "@ibrokethat/curry": "^1.0.3",
+    "@thisables/curry": "^7.0.0",
+    "auto-curry": "^0.2.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "benchmark": "^2.1.1",
+    "cast-curry": "^1.0.0",
+    "chai": "^3.5.0",
+    "curry": "^1.2.0",
+    "curry-d": "^0.6.0",
+    "fj-curry": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-optimize-js": "^1.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sizereport": "^1.2.0",
+    "gulp-uglify": "^2.0.0",
+    "instant-curry": "^1.2.0",
+    "just-curry": "^0.1.1",
+    "karma": "^1.3.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sinon": "^1.0.5",
+    "light-curry": "0.0.2",
+    "mocha": "^3.0.2",
+    "pump": "^1.0.1",
+    "require-dir": "^0.3.0",
+    "rollup": "^0.36.0",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-eslint": "^3.0.0",
+    "run-sequence": "^1.2.2",
+    "sinon": "^1.17.6",
+    "yargs": "^5.0.0"
+  }
+}

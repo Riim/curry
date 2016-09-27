@@ -2,6 +2,11 @@
 
 Fast `curry` implementation with placeholders and [function-bind-syntax](https://github.com/zenparsing/es-function-bind) support.
 
+[![Build Status](https://travis-ci.org/Riim/curry.svg?branch=master)](https://travis-ci.org/Riim/curry)
+[![Coverage Status](https://coveralls.io/repos/github/Riim/curry/badge.svg?branch=master)](https://coveralls.io/github/Riim/curry?branch=master)
+[![Dependency Status](https://david-dm.org/Riim/curry/status.svg)](https://david-dm.org/Riim/curry#info=dependencies)
+[![Dev Dependency Status](https://david-dm.org/Riim/curry/dev-status.svg)](https://david-dm.org/Riim/curry#info=devDependencies)
+
 ## Installation
 
 ```

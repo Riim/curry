@@ -77,8 +77,8 @@ console.log(setUserAge({}, 30));
 
 ## Benchmark
 
-Create - `sum = curry((a, b) => a + b)` - least important result
-Lift - `addOne = sum(1)`
+Create - `sum = curry((a, b) => a + b)` - least important result  
+Lift - `addOne = sum(1)`  
 Call - `addOne(2)` - much more important result than the previous two
 
 Results in K ops/sec.
